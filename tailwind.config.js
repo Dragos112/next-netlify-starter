@@ -5,7 +5,11 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        adelia: ["ADELIA", "cursive"],
+      },
+    },
   },
   plugins: [],
 };

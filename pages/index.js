@@ -52,8 +52,9 @@ const Home = () => {
       {/* note: BG color */}
       <div className="bg-green-100">
         <Header />
-        <main className=" flex flex-col space-y-16 lg:space-y-24 w-full overflow-x-hidden">
-          <section className="mx-auto mt-8 lg:mt-16 lg:pt-16 lg:w-full lg:px-8">
+        <div className="flex flex-col space-y-16 lg:space-y-16 w-full overflow-x-hidden font-adelia">
+          {/* Section */}
+          <div className="mx-auto mt-8 lg:mt-16 lg:pt-16 lg:w-full lg:px-8">
             <div className="flex flex-col lg:flex-row lg:space-x-4">
               <div className="w-full md:mt-10 lg:w-1/2 flex flex-col justify-center mb-16">
                 <div className="prose md:mt-6 relative ml-2">
@@ -61,8 +62,8 @@ const Home = () => {
                     30 Iulie 2022
                   </h1>
                   <p className="text-2xl mt-8 pt-4 z-10">
-                    Va asteptam bla bla Va asteptam bla bla Va asteptam bla bla
-                    Va asteptam bla bla bla bla bla bla bla
+                    Va ăîâțșm bla bla Va asteptam bla bla Va asteptam bla bla Va
+                    asteptam bla bla bla bla bla bla bla
                   </p>
                   <div
                     style={{
@@ -114,13 +115,15 @@ const Home = () => {
                 </div>
               </div>
             </div>
-          </section>
-          <section className="mx-auto mt-8 lg:mt-16 lg:pt-16 lg:w-full lg:px-8">
+            {/* Section */}
+          </div>
+          {/* Section */}
+          <div className="mx-auto mt-8 lg:mt-16 lg:pt-16 lg:w-full lg:px-8">
             <div className="flex flex-col lg:flex-row lg:space-x-4">
               <div className="w-full md:mt-10 lg:w-1/2 flex flex-col justify-center mb-16">
                 <div className="prose md:mt-6 relative ml-2">
                   <h1 className="font-bold leading-normal text-6xl">Locatie</h1>
-                  <p className="text-2xl mt-8 pt-4 text-gray-700 z-10">
+                  <p className="text-2xl mt-8 pt-4 z-10">
                     Adresa: Galati, Calea Smardan 99 (In spatele fabricii ARCADA
                     Filesti)
                     <br />
@@ -131,15 +134,15 @@ const Home = () => {
                         height="24"
                         viewBox="0 0 24 24"
                       >
-                        <path d="M12 2c3.196 0 6 2.618 6 5.602 0 3.093-2.493 7.132-6 12.661-3.507-5.529-6-9.568-6-12.661 0-2.984 2.804-5.602 6-5.602m0-2c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
+                        <path d="M12 3c2.131 0 4 1.73 4 3.702 0 2.05-1.714 4.941-4 8.561-2.286-3.62-4-6.511-4-8.561 0-1.972 1.869-3.702 4-3.702zm0-2c-3.148 0-6 2.553-6 5.702 0 3.148 2.602 6.907 6 12.298 3.398-5.391 6-9.15 6-12.298 0-3.149-2.851-5.702-6-5.702zm0 8c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2zm8 6h-3.135c-.385.641-.798 1.309-1.232 2h3.131l.5 1h-4.264l-.344.544-.289.456h.558l.858 2h-7.488l.858-2h.479l-.289-.456-.343-.544h-2.042l-1.011-1h2.42c-.435-.691-.848-1.359-1.232-2h-3.135l-4 8h24l-4-8zm-12.794 6h-3.97l1.764-3.528 1.516 1.528h1.549l-.859 2zm8.808-2h3.75l1 2h-3.892l-.858-2z" />
                       </svg>
                       <Link
                         href="https://www.google.com/maps/search/?api=1&query=Amiro+Events+Calea+Smardan"
                         // className="text-blue-700"
                         className="nav-link"
                       >
-                        <span className="text-blue-700">
-                          Apasati pentru Locatie
+                        <span className="text-blue-700 text-lg px-2">
+                          Apasati pentru locatia evenimentului
                         </span>
                       </Link>
                     </span>
@@ -194,8 +197,9 @@ const Home = () => {
                 </div>
               </div>
             </div>
-          </section>
-        </main>
+            {/* Section */}
+          </div>
+        </div>
         {/* <footer className="flex flex-col justify-center w-full py-16 px-4">
           <div className="text-center"></div>
           <div className="flex flex-col lg:flex-row justify-center space-y-4 lg:space-y-0 py-4">
