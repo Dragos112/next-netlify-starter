@@ -58,9 +58,9 @@ const Home = () => {
               <div className="w-full md:mt-10 lg:w-1/2 flex flex-col justify-center mb-16">
                 <div className="prose md:mt-6 relative ml-2">
                   <h1 className="font-bold leading-normal text-6xl">
-                    Nunta Ana si Robert
+                    30 Iulie 2022
                   </h1>
-                  <p className="text-2xl mt-8 pt-4 text-gray-700 z-10">
+                  <p className="text-2xl mt-8 pt-4 z-10">
                     Va asteptam bla bla Va asteptam bla bla Va asteptam bla bla
                     Va asteptam bla bla bla bla bla bla bla
                   </p>
