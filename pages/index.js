@@ -50,10 +50,13 @@ const Home = () => {
   return (
     <>
       {/* note: BG color */}
-      <div className="bg-green-100">
-        <Header />
+      <div className="bg-green-50">
+        {/* <Header /> */}
         <div className="flex flex-col space-y-16 lg:space-y-16 w-full overflow-x-hidden font-adelia">
           {/* Section */}
+          <h4 className="title py-4 text-center font-bold leading-normal text-lg font-adelia">
+            Eveniment Ana Maria și Robert Alexandru
+          </h4>
           <div className="mx-auto mt-8 lg:mt-16 lg:pt-16 lg:w-full lg:px-8">
             <div className="flex flex-col lg:flex-row lg:space-x-4">
               <div className="w-full md:mt-10 lg:w-1/2 flex flex-col justify-center mb-16">
@@ -215,7 +218,8 @@ const Home = () => {
             &copy; 2021 Aurelia Ltd.
           </p>
         </footer> */}
-        <Footer />
+        <div className="text-lg text-center py-8">Va asteptam</div>
+        {/* <Footer /> */}
       </div>
     </>
   );
