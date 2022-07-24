@@ -5,6 +5,8 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Header from "components/Header";
+import Footer from "components/Footer";
 
 const ContentSection = ({ children, imagePath, imageOnTheLeft = true }) => {
   const ImageBlock = () => (
@@ -49,7 +51,7 @@ const Home = () => {
     <>
       {/* note: BG color */}
       <div className="bg-green-100">
-        /{/* <Header /> */}
+        <Header />
         <main className=" flex flex-col space-y-16 lg:space-y-24 w-full overflow-x-hidden">
           <section className="mx-auto mt-8 lg:mt-16 lg:pt-16 lg:w-full lg:px-8">
             <div className="flex flex-col lg:flex-row lg:space-x-4">
@@ -98,15 +100,16 @@ const Home = () => {
                   ></div>
                 </div>
               </div>
-              <div className="w-full lg:w-1/2 z-10">
+              <div className="w-full lg:w-1/2 z-10 px-4">
                 <div className="w-full h-full">
                   <Image
-                    src="/img/WeddingDay.jpeg"
+                    src="/img/caricatura.jpeg"
                     alt="Picture of the supported banks"
-                    width={632}
+                    width={500}
                     height={592}
                     priority={true}
                     layout="responsive"
+                    className="rounded-lg px-8"
                   />
                 </div>
               </div>
@@ -177,15 +180,16 @@ const Home = () => {
                   ></div>
                 </div>
               </div>
-              <div className="w-full lg:w-1/2 z-10">
+              <div className="w-full lg:w-1/2 z-10 px-4">
                 <div className="w-full h-full">
                   <Image
-                    src="/img/WeddingDay.jpeg"
+                    src="/img/locatie.jpeg"
                     alt="Picture of the supported banks"
-                    width={632}
+                    width={500}
                     height={592}
                     priority={true}
                     layout="responsive"
+                    className="rounded-lg"
                   />
                 </div>
               </div>
@@ -193,8 +197,7 @@ const Home = () => {
           </section>
         </main>
         {/* <footer className="flex flex-col justify-center w-full py-16 px-4">
-          <div className="text-center">
-          </div>
+          <div className="text-center"></div>
           <div className="flex flex-col lg:flex-row justify-center space-y-4 lg:space-y-0 py-4">
             <div className="text-center">
               <Link passHref href="/legal">
@@ -208,6 +211,7 @@ const Home = () => {
             &copy; 2021 Aurelia Ltd.
           </p>
         </footer> */}
+        <Footer />
       </div>
     </>
   );
