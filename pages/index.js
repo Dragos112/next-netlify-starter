@@ -61,9 +61,9 @@ const Home = () => {
             <div className="flex flex-col lg:flex-row lg:space-x-4 flex-col-reverse">
               <div className="w-full md:mt-10 lg:w-1/2 flex flex-col justify-center mb-16">
                 <div className="prose md:mt-6 relative ml-2">
-                  <h1 className="font-bold leading-normal text-6xl">
+                  {/* <h1 className="font-bold leading-normal text-6xl">
                     30 Iulie 2022
-                  </h1>
+                  </h1> */}
                   <p className="text-2xl mt-8 pt-4 z-10">
                     Bine v-am găsit!
                     <br />
@@ -75,22 +75,22 @@ const Home = () => {
                     <br />
                     Pe această cale dorim să vă familiarizăm cu câteva detalii,
                     pe care le considerăm utile pentru buna desfășurare a
-                    evenimentului
+                    evenimentului.
                     {/* Spatiu */}
                     <br />
                     <br />
-                    Program:
+                    Ordinea evenimentelor:
                     <br />
                     <br />
                     Ora 15:00 Cuninia Civilă - Amiro Filești
                     <br />
-                    Ora 17:30 Cununia Religioasă - Biserica Sf. Mina
+                    Ora 17:00 Cununia Religioasă - Biserica Sf. Mina
                     <br />
                     Ora 20:00 Primirea invitaților - Amiro Filești
                     <br />
                     <br />
                     <span className="font-bold">
-                      Cu rugămintea să ne fiți alături până la ora 21:30 cand
+                      Cu rugămintea să ne fiți alături până la ora 21:30, când
                       vom deschide petrecerea cu "DANSUL MIRILOR"
                     </span>
                   </p>
@@ -151,14 +151,16 @@ const Home = () => {
             <div className="flex flex-col lg:flex-row lg:space-x-4">
               <div className="w-full md:mt-10 lg:w-1/2 flex flex-col justify-center mb-16">
                 <div className="prose md:mt-6 relative ml-2">
-                  <h1 className="font-bold leading-normal text-6xl">Locatie</h1>
+                  <h1 className="font-bold leading-normal text-6xl">Locație</h1>
                   <p className="text-2xl mt-8 pt-4 z-10">
-                    Adresa: Galati, Calea Smardan 99 (In spatele fabricii ARCADA
-                    Filesti)
+                    Adresa: Galați, Calea Smârdan 99 (In spatele fabricii ARCADA
+                    Filești)
                     <br />
                     <br />
-                    Evenimentul se va desfășura in aer liber, pe platoul din
-                    poza.
+                    <span className="text-bold">
+                      Evenimentul se va desfășura în aer liber, pe platoul din
+                      poză.
+                    </span>
                     <br />
                     <br />
                     <span className="flex flex-row items-center">
@@ -176,7 +178,7 @@ const Home = () => {
                         className="nav-link"
                       >
                         <span className="text-blue-700 text-lg px-2">
-                          Apasati pentru locatia evenimentului
+                          Apăsați pentru locația evenimentului
                         </span>
                       </Link>
                     </span>
@@ -220,7 +222,7 @@ const Home = () => {
               <div className="w-full lg:w-1/2 z-10 px-4">
                 <div className="w-full h-full">
                   <Image
-                    src="/img/locatie.jpeg"
+                    src="/img/locatie2.jpeg"
                     alt="Picture of the supported banks"
                     width={500}
                     height={592}
@@ -234,7 +236,9 @@ const Home = () => {
             {/* Section */}
           </div>
         </div>
-        <div className="text-lg text-center py-8">Va asteptam</div>
+        <div className="text-lg text-center py-8">
+          Vă mulțumim că ați ales să ne fiți alături!
+        </div>
       </div>
     </>
   );
