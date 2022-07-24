@@ -82,7 +82,7 @@ const Home = () => {
                     Ordinea evenimentelor:
                     <br />
                     <br />
-                    Ora 15:00 Cuninia Civilă - Amiro Filești
+                    Ora 15:00 Cununia Civilă - Amiro Filești
                     <br />
                     Ora 17:00 Cununia Religioasă - Biserica Sf. Mina
                     <br />
