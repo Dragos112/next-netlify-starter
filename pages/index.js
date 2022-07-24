@@ -50,23 +50,49 @@ const Home = () => {
   return (
     <>
       {/* note: BG color */}
-      <div className="bg-green-50">
+      <div className="bg-red-100">
         {/* <Header /> */}
-        <div className="flex flex-col space-y-16 lg:space-y-16 w-full overflow-x-hidden font-adelia">
+        <div className="flex flex-col space-y-16 lg:space-y-16 w-full overflow-x-hidden ">
           {/* Section */}
-          <h4 className="title py-4 text-center font-bold leading-normal text-lg font-adelia">
+          <h4 className="title py-4 text-center font-bold leading-normal text-lg">
             Eveniment Ana Maria și Robert Alexandru
           </h4>
           <div className="mx-auto mt-8 lg:mt-16 lg:pt-16 lg:w-full lg:px-8">
-            <div className="flex flex-col lg:flex-row lg:space-x-4">
+            <div className="flex flex-col lg:flex-row lg:space-x-4 flex-col-reverse">
               <div className="w-full md:mt-10 lg:w-1/2 flex flex-col justify-center mb-16">
                 <div className="prose md:mt-6 relative ml-2">
                   <h1 className="font-bold leading-normal text-6xl">
                     30 Iulie 2022
                   </h1>
                   <p className="text-2xl mt-8 pt-4 z-10">
-                    Va ăîâțșm bla bla Va asteptam bla bla Va asteptam bla bla Va
-                    asteptam bla bla bla bla bla bla bla
+                    Bine v-am găsit!
+                    <br />
+                    <br />
+                    Ziua în care ne unim destinele se apropie cu pași repezi.
+                    Este un moment magic și plin de iubire pe care suntem
+                    recunoscători că îl împărtășim cu voi, oamenii noștri dragi.
+                    <br />
+                    <br />
+                    Pe această cale dorim să vă familiarizăm cu câteva detalii,
+                    pe care le considerăm utile pentru buna desfășurare a
+                    evenimentului
+                    {/* Spatiu */}
+                    <br />
+                    <br />
+                    Program:
+                    <br />
+                    <br />
+                    Ora 15:00 Cuninia Civilă - Amiro Filești
+                    <br />
+                    Ora 17:30 Cununia Religioasă - Biserica Sf. Mina
+                    <br />
+                    Ora 20:00 Primirea invitaților - Amiro Filești
+                    <br />
+                    <br />
+                    <span className="font-bold">
+                      Cu rugămintea să ne fiți alături până la ora 21:30 cand
+                      vom deschide petrecerea cu "DANSUL MIRILOR"
+                    </span>
                   </p>
                   <div
                     style={{
@@ -107,7 +133,7 @@ const Home = () => {
               <div className="w-full lg:w-1/2 z-10 px-4">
                 <div className="w-full h-full">
                   <Image
-                    src="/img/caricatura.jpeg"
+                    src="/img/caricatura2.jpeg"
                     alt="Picture of the supported banks"
                     width={500}
                     height={592}
@@ -129,6 +155,11 @@ const Home = () => {
                   <p className="text-2xl mt-8 pt-4 z-10">
                     Adresa: Galati, Calea Smardan 99 (In spatele fabricii ARCADA
                     Filesti)
+                    <br />
+                    <br />
+                    Evenimentul se va desfășura in aer liber, pe platoul din
+                    poza.
+                    <br />
                     <br />
                     <span className="flex flex-row items-center">
                       <svg
@@ -203,23 +234,7 @@ const Home = () => {
             {/* Section */}
           </div>
         </div>
-        {/* <footer className="flex flex-col justify-center w-full py-16 px-4">
-          <div className="text-center"></div>
-          <div className="flex flex-col lg:flex-row justify-center space-y-4 lg:space-y-0 py-4">
-            <div className="text-center">
-              <Link passHref href="/legal">
-                <a className="text-center text-gray-700 mx-8 hover:underline">
-                  Legal
-                </a>
-              </Link>
-            </div>
-          </div>
-          <p className="text-center leading-none text-gray-700 mt-4">
-            &copy; 2021 Aurelia Ltd.
-          </p>
-        </footer> */}
         <div className="text-lg text-center py-8">Va asteptam</div>
-        {/* <Footer /> */}
       </div>
     </>
   );
