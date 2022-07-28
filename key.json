@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "organizaremasa",
+  "private_key_id": "de5c33d231278ed3e0d82bd2ccc74ed1a60f84c6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCcldm2aaFq54kc\ndjiw+U4U680aYbOpCHYlTIA0j9v6uJosJ3rU2CewGHWdwgoptY0T5wAVd2jkYsn3\niNJReUVNmFu1wvfLsHT+JJAu8tCk0fs/wt8yiIskJppRzs2h+Mo/tSAPSxxymD4O\nGqH1yPcrv3XBpavNhIkAYlv4fQel1Z8y0pYOU4FGOGOL8H8hjsB1gt9Ini5DX/EO\nND5idP21s1vvl9id4s6+LMWD65Ymtwk3nM8Np8/rXBCCpd45PndXsUPCh6v1515j\nbPqtdUdvCFw9sSr4C+5wZWzKE+7XqRnI5tfz0diWSO+Y8++wSizMNhr0/1HtBwe2\n8wfhzTRvAgMBAAECggEAHWTZ6i65EPbm27Nrn/kkybOcHHQzxCrk9sp+FJ/exRmL\nQ3ejzLnI9XsZ9SPcQYklsxM9hkoUpC7RSAjkpku0EUVlDeFMH+3/gEe/0zhcp1wN\npKIBwRw1tnMSrAG8w0ePO9dV7dkFPZPLrl0cgyWXFJzLz664aguTpkFQj3x1B5Gf\nVjoBDIuEAIv0wttKUun1zlnU3nwuXvac/nerTOtWr0Snirqme2PPzon6KekO3bTL\nqSZRTQZqQq6xEJoq+5wCVRXyASmefJ4bMeZWCxyqJxuilxBoAhPdwxVZXThHywyu\nYxN8Gxhja8oDcLnwlpm1S6W663ZY3RtMU566w+3wKQKBgQDdOnmdllHCnI3Bip+L\nMnrCVi4wYV5CNXj10m42hkTymXWYC0RzUav1PpB4zWCFZmcjqqlszEldu20COa+8\nFbMBJE4XGVgzjhDS6ClPfAnhhurliDVM0Z57ZGefAjvcXzhkIj9VepmSDXoKBHO4\nAuM/+3eMvCQR7R+nuA/KhtOdGQKBgQC1MlhMiQRC/AdPCLZxpVjALbeag7hjGSup\nYWcgbvWhiOXMz5X4D6o9l4Dmk1SFFm0FdkUEhoW8y4r4iKGoiXdh6QLT82hjv3uS\noRK/m4eRUYwUPNWqo2hdcB72tcdsw2eIwtetnm0RKqZbRQDfIpnwoF0IqC2IEmDu\nTFY15wuGxwKBgBOU/njVem04gE+2XoLqt/UFvdbod3hy1T8lHj5TSj0TGlaYALoY\na5ksrYsT2sxUESMWEyMfPgs+8No2kviaDxs1xHfE9Yqys4iHpkhz2UgOMjKZCObA\n0z9m1sk7YGMURqCOa368eGV2Lew/EqMiFk1ui9l4OdUgYSHuZ+9sWcTZAoGBAKUW\nxKqe3/oj5IjW2Ft9Gfqm7LTkNFhd85D0xOAhGL1fnHhZ3jrQEvzhD7mFHKnRf+1N\nD58K7cjQ7sJ4wklrThEwGrp/+GmBahZzmUBodUEqumUp9EbvcURIxn1jq9plwuwx\nEg8G3Dqa0E0x9pRW00kQ4xLjH/DtRdF4Tcf4xWC7AoGAd6SxMDkHJj5Gv7dIdi3Z\nLIIRJciI0YoEJW72dSEcQKXZiX7bNUNNb9UdoGzKabbULbq+jQ+a1DY1n6dPM/3W\nADlAeBjaDlZi5BCPvkM85oljP90PQs20pJHLrQ1YbkC78ry4b6DoS6wd5KeS6Gxp\nUXIgCuiPsS4v7Qq02QJtIUI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "spreadsheetreader@organizaremasa.iam.gserviceaccount.com",
+  "client_id": "115103866863871747951",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/spreadsheetreader%40organizaremasa.iam.gserviceaccount.com"
+}
